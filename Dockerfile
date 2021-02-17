@@ -2,7 +2,7 @@
 FROM ubuntu:focal
 MAINTAINER "Johan Pienaar" <johan@pienaarfamilie.nl>
 
-ENV DEBIAN_FRONTEND=noninteractive TZ=Europe/Amsterdam
+ENV DEBIAN_FRONTEND=noninteractive TZ=America/New_York
 
 # Initial updates and install core utilities
 RUN apt-get update -qq -y && \
